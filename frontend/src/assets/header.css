@@ -1,0 +1,37 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    border-bottom: 1px solid #006238;
+}
+
+.logo{
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    margin-left: 100px;
+}
+
+.logo>img{
+    height: 40px;
+}
+
+.logo>p{
+    /* font-family: sans-serif; */
+    color: #006238;
+    margin-left: 4px;
+    font-size: 32px;
+    /* font-size: 36px; */
+}
+
+.camera{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.camera>a>img{
+    width: 34px;
+}
