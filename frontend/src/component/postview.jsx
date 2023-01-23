@@ -13,7 +13,7 @@ const Postview = () => {
     const [postData, setPostData] = useState()
     // console.log(postData);
     const getData = async () => {
-        const postData = await axios.get("http://localhost:8080/api/get")
+        const postData = await axios.get("https://insta-backend-jtps.onrender.com/api/get")
         setPostData(postData.data.allPost)
     }
     return (

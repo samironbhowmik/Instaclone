@@ -11,7 +11,7 @@ const Upload = () => {
     console.log(file);
     const handleSubmit = async(e)=>{
         e.preventDefault()
-        const result = await axios.post("http://localhost:8080/api/post", {data,file})
+        const result = await axios.post("https://insta-backend-jtps.onrender.com/api/post", {data,file})
         // console.log(result);
         navigate("/postview")
     }
